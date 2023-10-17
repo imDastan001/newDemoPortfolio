@@ -1,0 +1,159 @@
+body  {
+    margin: 0px;
+    color: #40514e;
+    margin: 0;
+    font-size: 0.9rem;
+    font-family: "Merriweather", serif;
+
+}
+
+.top-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr 1fr;
+    background-color: #e4f9f5;
+
+}
+.content{
+
+    color: #66bfbf;
+    font-size: 2.6rem;
+    font-family: "Sacramento", cursive;
+    text-align: center;  
+    grid-area: 2/2;
+}
+
+h1{
+    margin-bottom: 3px; 
+
+}
+.cont{
+text-align: center;
+}
+.para{
+    font-size: 1.5rem;
+}
+h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+h3{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 1.6rem;
+}
+
+.image2{
+    display: flex;
+    justify-content: center;
+    grid-area: 3/1;
+}
+.image1{
+    padding-top: 25px;
+    grid-area: 1/3;
+    
+}
+.image3{
+    grid-area: 4/2;
+    display: flex;
+    justify-content: center;
+    
+}
+.middle-container{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    
+}
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.profile-pic>img{
+    border-radius: 50%;
+
+}
+
+hr{
+    border: dotted #aae2e2 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 85px auto;
+}
+.skills{
+display: flex;
+
+
+gap: 12px;
+}
+.box{
+
+     margin: 0px 42px 0px 42px ;
+    width: 40%;
+    text-align: center;
+}
+.skillsimg{
+    display: flex;
+    justify-content: center;
+    
+}
+.text{
+    margin: 0px 22px 0px 22px ;
+}
+.get-in-touch{
+    padding: 0px 22px 0px 22px;
+    text-align: center;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 50px 0 20px;
+    margin-top: 35px;
+    height: 20vh;
+    text-align: center;
+
+}
+a{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+a:hover{
+    color: white;
+
+}
+.bottom-container>p{
+    margin-top: 30px;
+    color: white;
+    font-size: 0.8rem;
+}
+button{
+    background: #11cdd4;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 22px ;
+    margin-top: 12px;
+}
+button:hover{
+    background-color: #34e4ea;
+}
+.get-in-touch>h2{
+    margin-top: 0px;
+}
+@media (max-width:800px){
+ .skills{
+        display: flex;
+        flex-direction: column;
+
+        } 
+}
